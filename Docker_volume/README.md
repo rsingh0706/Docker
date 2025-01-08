@@ -1,5 +1,5 @@
 ### Docker Volume: Overview
-A Docker Volume is a way to persist data generated and used by Docker containers. Since containers are ephemeral (i.e., their data is lost when they are stopped or deleted), volumes provide a solution to store and manage data independently of the container lifecycle.
+Docker Volume is a way to persist data generated and used by Docker containers. Since containers are ephemeral (i.e., their data is lost when they are stopped or deleted), volumes provide a solution to store and manage data independently of the container lifecycle.
 
 1. Create a Volume
 
@@ -37,7 +37,7 @@ docker volume rm my_volume
 docker volume prune
 ```
 
-7. In Docker, volumes are used to persist data generated or used by containers. They provide a way to store data outside the container's filesystem, ensuring that the data is not lost when a container is removed or recreated. Volumes are managed by Docker, making it easier to back up, share, and migrate data.
+7. Docker, volumes are used to persist data generated or used by containers. They provide a way to store data outside the container's filesystem, ensuring that the data is not lost when a container is removed or recreated. Volumes are managed by Docker, making it easier to back up, share, and migrate data.
 
 ```bash
 docker run -d -v /host/path:/container/path image_name
