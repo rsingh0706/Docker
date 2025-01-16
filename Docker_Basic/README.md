@@ -2,4 +2,4 @@
 
 1. Docker Version
 
-![Alt text](../assets/version.png?raw=true "Title")
+![Alt text](../assets/version.png)
